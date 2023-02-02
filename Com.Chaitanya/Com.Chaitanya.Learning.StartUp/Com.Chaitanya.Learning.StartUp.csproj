@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Com.Chaitanya.Programming.Concepts\Com.Chaitanya.Programming.Concepts.csproj" />
+  </ItemGroup>
+
 </Project>
