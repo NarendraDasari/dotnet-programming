@@ -1,5 +1,6 @@
 ﻿
 
+using Com.Chaitanya.Programming.Concepts.Arrays;
 using Com.Chaitanya.Programming.Concepts.Conditional.Loops;
 
 namespace Com.Chaitanya.Learning.StartUp
@@ -21,10 +22,11 @@ namespace Com.Chaitanya.Learning.StartUp
 
 
             //This lines are for testing while loop.
-            WhileLoop whi = new WhileLoop();
-            whi.RollTheDice();
+            //WhileLoop whi = new WhileLoop();
+            //whi.RollTheDice();
 
-                
+                SimpleArraysDemo demo= new SimpleArraysDemo();
+            demo.ForLoopProgram();
         }
     }
 }
