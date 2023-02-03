@@ -15,12 +15,15 @@ namespace Com.Chaitanya.Learning.StartUp
 
 
             // this two lines are to test IfElse condition.
-            IfElseCondition con=new IfElseCondition();
-            
-            con.TestIfelseCondition();
+            //IfElseCondition con=new IfElseCondition();
+
+            //con.TestIfelseCondition();
 
 
             //This lines are for testing while loop.
+            WhileLoop whi = new WhileLoop();
+            whi.RollTheDice();
+
                 
         }
     }
