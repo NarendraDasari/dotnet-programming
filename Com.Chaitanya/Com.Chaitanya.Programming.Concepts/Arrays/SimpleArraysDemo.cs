@@ -30,14 +30,14 @@ namespace Com.Chaitanya.Programming.Concepts.Arrays
                     string lastname = Console.ReadLine();
                     Console.WriteLine("Enter person DOB (MM/dd/yyyy):");
                     string dob = Console.ReadLine();
-                    Console.WriteLine("Enter age:");
-                    string age = Console.ReadLine();
+                    //Console.WriteLine("Enter age:");
+                    //string age = Console.ReadLine();
 
                     Person p = new Person();
                     p.FirstName = firstname;
                     p.LastName = lastname;
                     p.DateOfBirth=dob;
-                    p.Age = Convert.ToInt32(age);
+                    //p.Age = Convert.ToInt32(age);
                     //p.age = Convert.ToInt32(age);
 
                     
