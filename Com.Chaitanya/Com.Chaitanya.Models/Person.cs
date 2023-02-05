@@ -6,6 +6,12 @@
        public string lastname;
         
        public  string dob;
-        public int age;
+        private int age;
+
+
+        public int GetAge()
+        {
+            return 1;
+        }
     }
 }

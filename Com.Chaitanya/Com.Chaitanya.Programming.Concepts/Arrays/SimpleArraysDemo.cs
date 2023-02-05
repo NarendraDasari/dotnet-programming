@@ -30,14 +30,14 @@ namespace Com.Chaitanya.Programming.Concepts.Arrays
                     string lastname = Console.ReadLine();
                     Console.WriteLine("Enter person DOB:");
                     string dob = Console.ReadLine();
-                    Console.WriteLine("Enter age:");
-                    string age = Console.ReadLine();
+                   // Console.WriteLine("Enter age:");
+                    //string age = Console.ReadLine();
 
                     Person p = new Person();
                     p.firstname = firstname;
                     p.lastname = lastname;
                     p.dob = dob;
-                    p.age = Convert.ToInt32(age);
+                    //p.age = Convert.ToInt32(age);
 
                     people[i] = p;
 
@@ -69,7 +69,7 @@ namespace Com.Chaitanya.Programming.Concepts.Arrays
                 Console.WriteLine("Person firstname:" + people[x].firstname);
                 Console.WriteLine("Person lastname" + people[x].lastname);
                 Console.WriteLine("Person DOB:" + people[x].dob);
-                Console.WriteLine("Person age:" + people[x].age);
+                Console.WriteLine("Person age:" + people[x].GetAge());
             }
         }
 
