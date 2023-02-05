@@ -1,6 +1,7 @@
 ﻿
 
 using Com.Chaitanya.Programming.Concepts.Arrays;
+using Com.Chaitanya.Programming.Concepts.Collections;
 using Com.Chaitanya.Programming.Concepts.Conditional.Loops;
 
 namespace Com.Chaitanya.Learning.StartUp
@@ -25,8 +26,12 @@ namespace Com.Chaitanya.Learning.StartUp
             //WhileLoop whi = new WhileLoop();
             //whi.RollTheDice();
 
-                SimpleArraysDemo demo= new SimpleArraysDemo();
-            demo.ForLoopProgram();
+            // SimpleArraysDemo demo= new SimpleArraysDemo();
+            //demo.ForLoopProgram();
+
+            CollectionsDemo collect = new CollectionsDemo();
+            collect.TestCollections();
+
         }
     }
 }
