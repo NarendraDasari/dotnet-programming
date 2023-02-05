@@ -28,7 +28,7 @@ namespace Com.Chaitanya.Programming.Concepts.Arrays
                     string firstname = Console.ReadLine();
                     Console.WriteLine("Enter lastname:");
                     string lastname = Console.ReadLine();
-                    Console.WriteLine("Enter person DOB:");
+                    Console.WriteLine("Enter person DOB (MM/dd/yyyy):");
                     string dob = Console.ReadLine();
                    // Console.WriteLine("Enter age:");
                     //string age = Console.ReadLine();
@@ -55,9 +55,7 @@ namespace Com.Chaitanya.Programming.Concepts.Arrays
             {
                 Console.WriteLine("Executing finally block");
             }
-            
-            
-          
+       
 
         }
 
