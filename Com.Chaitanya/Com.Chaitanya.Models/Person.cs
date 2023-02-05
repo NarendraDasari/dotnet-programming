@@ -2,11 +2,51 @@
 {
     public class Person
     {
-        public string firstname;
-       public string lastname;
+        private string firstname;
+       private string lastname;
         
-        public  string dob;
+        private  string dob;
         private int age;
+
+
+
+        public void setFirstname(string fname)
+        {
+            this.firstname = fname;
+        }
+        public string getFirstname()
+        {
+            return this.firstname;
+
+        }
+
+        public void setLastname(string lname)
+        {
+            this.lastname = lname;
+
+        }
+
+        public string getLastname()
+        {
+            return this.lastname;
+
+        }
+        // This is a setter
+        public void setDob(string dob1)
+        {
+
+
+            this.dob = dob1;
+        }
+
+
+        // This is a getter.
+        public string getDob()
+        {
+            return this.dob;
+        }
+
+
 
 
         public int GetAge()

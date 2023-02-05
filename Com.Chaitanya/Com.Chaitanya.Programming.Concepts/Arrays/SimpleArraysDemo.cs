@@ -34,9 +34,9 @@ namespace Com.Chaitanya.Programming.Concepts.Arrays
                     //string age = Console.ReadLine();
 
                     Person p = new Person();
-                    p.firstname = firstname;
-                    p.lastname = lastname;
-                    p.dob = dob;
+                    p.setFirstname(firstname);
+                    p.setLastname(lastname);
+                    p.setDob(dob);
                     //p.age = Convert.ToInt32(age);
 
                     people[i] = p;
@@ -64,9 +64,9 @@ namespace Com.Chaitanya.Programming.Concepts.Arrays
         {
             for (int x = 0; x < people.Length; x++)
             {
-                Console.WriteLine("Person firstname:" + people[x].firstname);
-                Console.WriteLine("Person lastname" + people[x].lastname);
-                Console.WriteLine("Person DOB:" + people[x].dob);
+                Console.WriteLine("Person firstname:" + people[x].getFirstname());
+                Console.WriteLine("Person lastname" + people[x].getLastname());
+                Console.WriteLine("Person DOB:" + people[x].getDob());
                 Console.WriteLine("Person age:" + people[x].GetAge());
             }
         }
