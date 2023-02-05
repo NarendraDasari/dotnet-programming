@@ -2,12 +2,62 @@
 {
     public class Person
     {
+       
         private string firstname;
        private string lastname;
         
         private  string dob;
         private int age;
 
+
+        public string FirstName
+        {
+            set {
+                this.firstname = value;
+
+            }
+            get {
+                return this.firstname;
+            }
+        }
+
+
+        public string LastName
+        {
+            set
+            {
+                this.lastname = value;
+            }
+            get
+            {
+                return this.lastname;
+            }
+
+        }
+        public string DateOfBirth
+        {
+            set
+            {
+                this.dob = value;
+            }
+            get
+            {
+                return this.dob;
+
+            }
+        }
+        public int Age
+        {
+            set
+            {
+                this.age = value;
+
+            }
+            get
+            {
+                return this.age;
+            }
+        }
 
 
         public void setFirstname(string fname)
