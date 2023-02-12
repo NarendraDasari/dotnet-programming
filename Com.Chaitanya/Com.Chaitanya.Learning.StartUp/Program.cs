@@ -4,6 +4,7 @@ using Com.Chaitanya.Programming.Concepts.Arrays;
 using Com.Chaitanya.Programming.Concepts.Collections;
 using Com.Chaitanya.Programming.Concepts.Conditional.Loops;
 using Com.Chaitanya.Programming.Concepts.Generic.Collections;
+using Com.Chaitanya.Programming.Concepts.StringFormatting;
 
 namespace Com.Chaitanya.Learning.StartUp
 {
@@ -36,8 +37,11 @@ namespace Com.Chaitanya.Learning.StartUp
             //ListDemo demo = new ListDemo();
             // demo.TestingList();
 
-            DictionaryDemo demo = new DictionaryDemo();
-            demo.TestDictionary();
+            //DictionaryDemo demo = new DictionaryDemo();
+            //demo.TestDictionary();
+
+            StringFormattingDemo form = new StringFormattingDemo();
+            form.TestingStringFormat();
 
 
 
