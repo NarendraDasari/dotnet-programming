@@ -16,12 +16,13 @@ namespace Com.Chaitanya.Programming.Concepts.Generic.Collections
             dic.Add(30, "Clark");
             dic.Add(40, "Rosa Park");
 
-            foreach(KeyValuePair<int,string> keyvalue in dic) 
+
+            foreach (KeyValuePair<int, string> keyvalue in dic)
             {
-                Console.WriteLine("{0} {1}",keyvalue.Key, keyvalue.Value );
+                Console.WriteLine("{0} {1}", keyvalue.Key, keyvalue.Value);
             }
 
-            
+
 
 
         }

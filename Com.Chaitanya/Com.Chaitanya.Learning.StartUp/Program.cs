@@ -34,10 +34,15 @@ namespace Com.Chaitanya.Learning.StartUp
             //collect.TestCollections();
 
             //ListDemo demo = new ListDemo();
-           // demo.TestingList();
+            // demo.TestingList();
 
-            DictionaryDemo demo=new DictionaryDemo();
+            DictionaryDemo demo = new DictionaryDemo();
             demo.TestDictionary();
+
+
+
+
+
 
 
         }
