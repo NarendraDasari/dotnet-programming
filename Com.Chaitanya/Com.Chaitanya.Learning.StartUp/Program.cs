@@ -3,6 +3,7 @@
 using Com.Chaitanya.Programming.Concepts.Arrays;
 using Com.Chaitanya.Programming.Concepts.Collections;
 using Com.Chaitanya.Programming.Concepts.Conditional.Loops;
+using Com.Chaitanya.Programming.Concepts.Generic.Collections;
 
 namespace Com.Chaitanya.Learning.StartUp
 {
@@ -29,8 +30,20 @@ namespace Com.Chaitanya.Learning.StartUp
             // SimpleArraysDemo demo= new SimpleArraysDemo();
             //demo.ForLoopProgram();
 
-            CollectionsDemo collect = new CollectionsDemo();
-            collect.TestCollections();
+            //CollectionsDemo collect = new CollectionsDemo();
+            //collect.TestCollections();
+
+            //ListDemo demo = new ListDemo();
+            // demo.TestingList();
+
+            DictionaryDemo demo = new DictionaryDemo();
+            demo.TestDictionary();
+
+
+
+
+
+
 
         }
     }

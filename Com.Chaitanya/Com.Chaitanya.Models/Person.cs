@@ -34,6 +34,10 @@
             }
 
         }
+
+        /// <summary>
+        /// entering the data of birth in MM/dd/yyyy
+        /// </summary>
         public string DateOfBirth
         {
             set
