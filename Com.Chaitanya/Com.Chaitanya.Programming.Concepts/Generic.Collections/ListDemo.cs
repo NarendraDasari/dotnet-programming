@@ -118,14 +118,22 @@ namespace Com.Chaitanya.Programming.Concepts.Generic.Collections
         private void printPersonList(List<Person> peoples)
         {
             
-            for (int y = 0; y < peoples.Count; y++)
+
+
+            foreach (Person obj in peoples)
             {
-                Person per = peoples[y];
-                Console.WriteLine("Firstname :" + per.FirstName);
-                Console.WriteLine("Lastname:" + per.LastName);
-                Console.WriteLine("Date of birth" + per.DateOfBirth);
-                Console.WriteLine("age " + per.Age);
+
+                Console.WriteLine("firstname is:" + obj.FirstName);
+                Console.WriteLine("lastname is:" +obj.LastName);
+                Console.WriteLine("Date of Birth is:" + obj.DateOfBirth);
+                Console.WriteLine("Age:" + obj.Age);
+
             }
+
+
+                
+
+           
 
         }
         

@@ -33,8 +33,11 @@ namespace Com.Chaitanya.Learning.StartUp
             //CollectionsDemo collect = new CollectionsDemo();
             //collect.TestCollections();
 
-            ListDemo demo = new ListDemo();
-            demo.TestingList();
+            //ListDemo demo = new ListDemo();
+           // demo.TestingList();
+
+            DictionaryDemo demo=new DictionaryDemo();
+            demo.TestDictionary();
 
 
         }
